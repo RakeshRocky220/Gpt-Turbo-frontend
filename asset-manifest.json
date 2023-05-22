@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Gpt-Turbo-frontend/static/css/main.9d3bb430.css",
+    "main.js": "/Gpt-Turbo-frontend/static/js/main.5429674c.js",
+    "static/js/787.c93ae902.chunk.js": "/Gpt-Turbo-frontend/static/js/787.c93ae902.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/security.png": "/Gpt-Turbo-frontend/static/media/security.fd7de17953f98e9835e7.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/artificial-intelligence.png": "/Gpt-Turbo-frontend/static/media/artificial-intelligence.71cff2a04880672aef38.png",
+    "static/media/ai.png": "/Gpt-Turbo-frontend/static/media/ai.ab1f5d284516d31b2513.png",
+    "static/media/robotics.png": "/Gpt-Turbo-frontend/static/media/robotics.fa6100ef662445b1fa91.png",
+    "static/media/clock.png": "/Gpt-Turbo-frontend/static/media/clock.f64d91d536f16e6302af.png",
+    "static/media/speaker.png": "/Gpt-Turbo-frontend/static/media/speaker.9d59336a03f87d1ef4a5.png",
+    "index.html": "/Gpt-Turbo-frontend/index.html",
+    "main.9d3bb430.css.map": "/Gpt-Turbo-frontend/static/css/main.9d3bb430.css.map",
+    "main.5429674c.js.map": "/Gpt-Turbo-frontend/static/js/main.5429674c.js.map",
+    "787.c93ae902.chunk.js.map": "/Gpt-Turbo-frontend/static/js/787.c93ae902.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d3bb430.css",
+    "static/js/main.5429674c.js"
+  ]
+}
