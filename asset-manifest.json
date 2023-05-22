@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Gpt-Turbo-frontend/static/css/main.9d3bb430.css",
-    "main.js": "/Gpt-Turbo-frontend/static/js/main.2f840a4c.js",
+    "main.js": "/Gpt-Turbo-frontend/static/js/main.0fdf88e8.js",
     "static/js/787.c93ae902.chunk.js": "/Gpt-Turbo-frontend/static/js/787.c93ae902.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Gpt-Turbo-frontend/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -16,11 +16,11 @@
     "static/media/speaker.png": "/Gpt-Turbo-frontend/static/media/speaker.9d59336a03f87d1ef4a5.png",
     "index.html": "/Gpt-Turbo-frontend/index.html",
     "main.9d3bb430.css.map": "/Gpt-Turbo-frontend/static/css/main.9d3bb430.css.map",
-    "main.2f840a4c.js.map": "/Gpt-Turbo-frontend/static/js/main.2f840a4c.js.map",
+    "main.0fdf88e8.js.map": "/Gpt-Turbo-frontend/static/js/main.0fdf88e8.js.map",
     "787.c93ae902.chunk.js.map": "/Gpt-Turbo-frontend/static/js/787.c93ae902.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d3bb430.css",
-    "static/js/main.2f840a4c.js"
+    "static/js/main.0fdf88e8.js"
   ]
 }
