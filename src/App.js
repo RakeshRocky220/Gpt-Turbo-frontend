@@ -300,11 +300,11 @@ const change=()=>{
 
 
 
-<div className="row mt-3">
-  <div className="col-12 col-md-4">
+<div className="row ">
+  <div className="col-12 col-md-4 ">
     <div className="d-flex justify-content-center align-items-center">
       <img
-        className="mx-5"
+        className="mx-2"
         src={image1}
         style={{
           height: 50,
@@ -320,7 +320,7 @@ const change=()=>{
       <input
         type="text"
         onChange={change}
-        className="form-control form-control-sm w-100 mx-3 mx-md-5"
+        className="form-control form-control-sm w-75 mx-3 mx-md-5"
         placeholder="Ask me..."
         ref={msg}
       />
@@ -357,7 +357,7 @@ const change=()=>{
           : "linear-gradient(185deg, rgb(0, 28, 53), rgb(3, 72, 134))"
       }`,
     }}
-    className="  col-md-7 rounded 30px mx-5 mt-2"
+    className="  col-md-7 rounded 30px  mt-2"
   >
     <div
       className="scroll-container"
