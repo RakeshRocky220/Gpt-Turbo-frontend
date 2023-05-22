@@ -320,7 +320,7 @@ const change=()=>{
       <input
         type="text"
         onChange={change}
-        className="form-control form-control-sm w-75 mx-3 mx-md-5"
+        className="form-control form-control-sm  mx-3 mx-md-5"
         placeholder="Ask me..."
         ref={msg}
       />
@@ -357,7 +357,7 @@ const change=()=>{
           : "linear-gradient(185deg, rgb(0, 28, 53), rgb(3, 72, 134))"
       }`,
     }}
-    className="  col-md-7 rounded 30px  mt-2"
+    className="  col-md-7 rounded 30px  mt-2 mx-5"
   >
     <div
       className="scroll-container"
