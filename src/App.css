@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Lora:wght@500&family=Nunito&display=swap');
+  .font{
+    font-family: 'Lora', serif;;
+  }
+  .baloo{
+    font-family: 'Baloo Bhai 2';
+  }
+  .gradient-text {
+    background: linear-gradient(to right, #f13063, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .custom-spinner {
+    font-size: 0.70rem; 
+    color: rgb(142, 230, 218);
+  }
+  .linear{
+    background:linear-gradient(45deg,rgb(255, 255, 255),rgb(100, 255, 214));
+  }
+ 
+  
+  .color{
+    background-color: rgb(0, 4, 37);
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+   display: none;
+    border-radius: 10px;
+    height: 2px; /* Decrease the height as desired */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #000d39;
+  }
+  .color{
+    background-color: rgb(63, 231, 243);
+  }
+  
+  
+    
