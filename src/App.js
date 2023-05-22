@@ -8,6 +8,7 @@ import speaker from './assets/speaker.png';
 import axios from 'axios';
 import robo from './assets/robotics.png'
 function App() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [mode, setMode] = useState('Dark');
   const [time, setTime] = useState(new Date().toLocaleTimeString());
   const msg = useRef('');
@@ -112,12 +113,22 @@ axios.delete(`http://localhost:2022/delete/${p1}`).then((p)=>{
       setTime(new Date().toLocaleTimeString());
     }, 1000);
 
-    return () => {
-      clearInterval(timer);
+
+
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
     };
 
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
 
+    
 
+    
+    
   }, []);
 
 const change=()=>{
@@ -230,7 +241,7 @@ const change=()=>{
     </h2>
   </div>
 
-  <div className="col-4 col-md-auto text-center text-dark d-flex align-items-center">
+  <div className="col-2 col-md-auto text-center text-dark d-flex align-items-center">
     {mode === "Dark" ? (
       <i
         style={{ fontSize: "30px", paddingRight: 0 }}
@@ -254,9 +265,9 @@ const change=()=>{
 
 <div className="row mt-2 d-flex">
   <div
-    className=" col-auto col-md-auto  scroll-container"
+    className="  col-md-auto  scroll-container"
     style={{
-      maxWidth: "90vw",
+      maxWidth: `${screenWidth>392?`90vw`:`100vw`}`,
       maxHeight: "150px",
       overflow: "auto",
       background: "transparent",
@@ -316,7 +327,7 @@ const change=()=>{
         <h4 className="text-light mt-2 font gradient-text">{time}</h4>
       </label>
     </div>
-    <div className="form-group mt-5">
+    <div className="form-group d-flex justify-content-center mt-5">
       <input
         type="text"
         onChange={change}
@@ -357,7 +368,7 @@ const change=()=>{
           : "linear-gradient(185deg, rgb(0, 28, 53), rgb(3, 72, 134))"
       }`,
     }}
-    className="  col-md-7 rounded 30px  mt-2 mx-5"
+    className={`col-md-7 rounded 30px mt-2 ${screenWidth>392?`mx-5`:`mx-0`}`}
   >
     <div
       className="scroll-container"
