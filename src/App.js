@@ -351,14 +351,13 @@ const change=()=>{
     id="answer"
     style={{
       height: "65vh",
-      width:`700px`,
       background: `${
         mode === "Dark"
           ? "linear-gradient(185deg, rgb(255, 255, 255), rgb(145, 248, 255))"
           : "linear-gradient(185deg, rgb(0, 28, 53), rgb(3, 72, 134))"
       }`,
     }}
-    className="col-12 col-md-8 rounded 30px mx-5 mt-2"
+    className="  col-md-7 rounded 30px mx-5 mt-2"
   >
     <div
       className="scroll-container"
